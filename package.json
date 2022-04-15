@@ -1,0 +1,15 @@
+{
+  "name": "pnpm-repro",
+  "version": "1.0.0",
+  "description": "Demonstrates duplicate peer dependencies in a monorepo when setting allowed versions explicitly",
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react": "18"
+      }
+    }
+  },
+  "dependencies": {
+    "pnpm": "7.0.0-rc.4"
+  }
+}
